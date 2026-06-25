@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>索引 · 笔记 · 雷速</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #f2f3f5;
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', sans-serif;
+            color: #2c2d2e;
+            line-height: 1.65;
+            padding: 2rem 1.25rem;
+        }
+
+        .page {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: #ffffff;
+            border-radius: 14px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04), 0 6px 20px rgba(0, 0, 0, 0.02);
+            border: 1px solid #e6e8ea;
+            padding: 2rem 1.8rem;
+            margin-bottom: 2rem;
+            transition: box-shadow 0.2s;
+        }
+
+        .card:hover {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06), 0 8px 24px rgba(0, 0, 0, 0.04);
+        }
+
+        .hero-tag {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: #858e97;
+            margin-bottom: 0.5rem;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            color: #1f2022;
+            margin-bottom: 0.4rem;
+        }
+
+        .lead {
+            font-size: 1.1rem;
+            color: #4a4e54;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #ecedee;
+        }
+
+        h2 {
+            font-size: 1.3rem;
+            font-weight: 500;
+            margin: 1.8rem 0 0.8rem 0;
+            color: #1c1d1f;
+        }
+
+        p {
+            margin-bottom: 1.1rem;
+        }
+
+        .highlight-box {
+            background: #f7f8f9;
+            border-left: 4px solid #b0b8c0;
+            padding: 1.2rem 1.4rem;
+            border-radius: 0 10px 10px 0;
+            margin: 1.5rem 0;
+            font-size: 0.95rem;
+        }
+
+        .highlight-box strong {
+            color: #1f2022;
+        }
+
+        .inset-link {
+            color: #2f3a45;
+            text-decoration: none;
+            border-bottom: 1px solid #c6cdd5;
+            padding-bottom: 1px;
+            transition: border-color 0.15s, color 0.15s;
+        }
+
+        .inset-link:hover {
+            color: #000;
+            border-bottom-color: #000;
+        }
+
+        .tag-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin: 1.2rem 0 0.2rem 0;
+        }
+
+        .tag {
+            background: #eef0f2;
+            color: #3b4046;
+            font-size: 0.75rem;
+            padding: 0.2rem 0.8rem;
+            border-radius: 20px;
+            border: 1px solid #d8dce0;
+        }
+
+        .faq-item {
+            margin-bottom: 1.4rem;
+        }
+
+        .faq-item .q {
+            font-weight: 500;
+            margin-bottom: 0.2rem;
+            color: #1e2022;
+        }
+
+        .faq-item .a {
+            color: #51565e;
+            font-size: 0.95rem;
+        }
+
+        .footer-note {
+            margin-top: 2rem;
+            padding-top: 1.2rem;
+            border-top: 1px solid #dde0e3;
+            font-size: 0.85rem;
+            color: #6b727a;
+            text-align: center;
+        }
+
+        @media (max-width: 540px) {
+            body {
+                padding: 1rem 0.8rem;
+            }
+            .card {
+                padding: 1.2rem 1rem;
+            }
+            h1 {
+                font-size: 1.6rem;
+            }
+            .lead {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+
+        <!-- 卡片一：标题 + 导语 -->
+        <div class="card">
+            <div class="hero-tag">资料整理 · 信息索引</div>
+            <h1>一份关于雷速的阅读笔记</h1>
+            <div class="lead">
+                从零散到有序，把有关 <a href="https://leisu-webs-rayspeed.com" class="inset-link">雷速</a> 的片段归档成可以回溯的索引。不是测评，不是推荐，只是整理。
+            </div>
+            <p>
+                有些事情需要反复确认，有些信息值得被拉平排列。因为手上正好有一批跟「雷速」相关的零散记录、使用片段和界面印象，所以花了点时间把它们梳理成一条更清晰的线索。如果你也在做类似的功课，或许可以省掉一些四处翻找的工夫。  
+            </p>
+        </div>
+
+        <!-- 卡片二：信息整理的角度 -->
+        <div class="card">
+            <h2>从文件夹到索引卡片</h2>
+            <p>
+                最早接触 <a href="https://leisu-webs-rayspeed.com" class="inset-link">雷速</a> 是通过朋友的转发——一个链接，几张截图，没有太多背景。后来因为手头需要对比几款不同工具，才重新把雷速的界面、操作逻辑和常见用法单独列了一个文件夹。  
+            </p>
+            <p>
+                整理的过程其实很朴素：打开页面，逐项记录功能分区，备注每个模块的默认状态，再标注一些自己觉得比较顺手的细节。没有技术文档，只有普通用户的观察。后来发现这种「笨办法」反而能沉淀出一些官方说明里不会写的东西——比如某种单击手感，或者某个菜单层级带来的直觉反应。
+            </p>
+            <div class="highlight-box">
+                <strong>一条笔记</strong> —— “最快的方式往往不是跳过，而是预先排好索引。把雷速的常用面板放在顺手的位置，比每次重新寻找要省力得多。”
+            </div>
+            <p>
+                后来我把这些笔记拆成了几个小主题：界面结构、默认设置、常用路径、以及一些值得留意的变化。每个主题都尽量用一句话概括核心印象，然后再展开一两段具体描述。对我来说，索引不是为了覆盖所有细节，而是为了下一次需要的时候能快速定位到那一块。
+            </p>
+        </div>
+
+        <!-- 卡片三：引用提示 + 日常场景 -->
+        <div class="card">
+            <h2>日常场景里的索引思维</h2>
+            <p>
+                有一段时间我习惯在浏览器里同时打开七八个标签页，每个标签页对应雷速的不同面板或配置页。后来发现，真正频繁使用的其实只有两三个。于是重新做了个简单的本地书签分类，把常用路径单独放一组，其他的归档到次级目录。这个习惯后来也被我用到了其他工具上，算是整理 <a href="https://leisu-webs-rayspeed.com" class="inset-link">雷速</a> 带来的一个副产品。
+            </p>
+            <p>
+                另一个体会是：很多看起来复杂的设置，其实只需要理解两三个关键选项就能覆盖九成以上的操作。剩下的细节可以按需查阅，不需要一次性全部记住。这也是我坚持用「索引」而不是「教程」来定位这批笔记的原因——索引尊重遗忘，也信任回溯。
+            </p>
+
+            <div class="tag-list">
+                <span class="tag">界面结构</span>
+                <span class="tag">常用路径</span>
+                <span class="tag">默认设置</span>
+                <span class="tag">操作手感</span>
+                <span class="tag">版本变化</span>
+            </div>
+        </div>
+
+        <!-- 卡片四：FAQ 摘要 -->
+        <div class="card">
+            <h2>整理中遇到的几个常见问题</h2>
+            <div class="faq-item">
+                <div class="q">· 从哪里开始看比较快？</div>
+                <div class="a">如果只是先上手试试，直接打开 <a href="https://leisu-webs-rayspeed.com" class="inset-link">雷速</a> 的主面板，熟悉一下最上面一排入口即可，多数操作不需要进入深层菜单。</div>
+            </div>
+            <div class="faq-item">
+                <div class="q">· 记录下来的内容会过时吗？</div>
+                <div class="a">会。但索引的优势在于可以单独替换过时的卡片，而不需要重写整份笔记。我一般会在每个条目末尾加一个日期戳，方便判断时效。</div>
+            </div>
+            <div class="faq-item">
+                <div class="q">· 有没有推荐的整理习惯？</div>
+                <div class="a">用截图 + 一句注释的方式会比纯文字更直观。另外给每个卡片一个独立的标题，方便后续按标题搜索。</div>
+            </div>
+        </div>
+
+        <!-- 卡片五：结束语 + 访问句 -->
+        <div class="card">
+            <p style="font-style: italic; color: #3d434a;">
+                索引不是终点，是下一次出发的起点。如果你也在整理有关雷速的资料，或许可以把它当作一个参考坐标。
+            </p>
+            <p style="margin-top: 1rem;">
+                日常需要查阅时，直接打开 <a href="https://leisu-webs-rayspeed.com" class="inset-link">雷速</a> 就好，保持顺手比什么都重要。
+            </p>
+            <div class="footer-note">
+                记录于一次安静的整理 · 索引版本 / 简
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
